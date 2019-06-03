@@ -1,0 +1,9 @@
+<h1>Tell Rubi What To Do Today</h1>
+<%= simple_form_for @suggestion do |f| %>
+<%= f.input :activity %>
+<%= f.input :description %>
+<br />
+<%= f.submit 'Create', class: 'btn btn-danger' %>
+
+<% end %>
+

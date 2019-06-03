@@ -11,7 +11,7 @@
   <body>
 
       <nav class="navbar navbar-light bg-light navlink">
-      <a class="navbar-brand" href="#">The Life of a Chiweenie</a>
+      <%= link_to 'The Life of a Chiweenie', root_path, class: 'navbar-brand' %> 
       </nav>
 
       <header class="container">
@@ -40,22 +40,18 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
            <%= f.submit 'Create', class: 'btn btn-danger' %>
-          </div>
-          <% end %>
+           </div>
+           <% end %>
         </div>
       </div>
     </div>
 
       <br class="clear" />
-
-      <div class="container">
-        <% if flash[:error].present? %>
-        <div class="col-10 offset-1 alert alert-danger">
-          <%= flash[:error].html_safe %>
-          <% end %>
-
+      
          <%= yield %>
-      </div>
+       </div>
+
+      
 
 
   </body>
