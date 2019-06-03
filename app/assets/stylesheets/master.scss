@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco&display=swap');
+@import "bootstrap";
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    padding-left: 400px;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    padding-left: 300px;
+}
+
+.title-link {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 60px;
+    text-indent: 50px;
+    padding-top: 26px;
+    color: #DE1F59
+    
+}
+
+
+.navlink {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 100px;
+    font-color: #DE1F59;
+    border-bottom: 3px solid #1FDEA4;
+    font-color: #DE1F59;
+}
+
+.img-fluid {
+  transform: rotate(90deg);
+  width: 30%;
+  height: 30%;
+}
